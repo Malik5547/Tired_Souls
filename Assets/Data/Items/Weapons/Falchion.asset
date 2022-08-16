@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f420b6ce317e04429a89c1fe0712f4b, type: 3}
+  m_Name: Falchion
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 0eb99d4ec65e5a34fb9442e839dffee2, type: 3}
+  itemName: Falchion
+  modelPrefab: {fileID: 1939666663009380289, guid: b38386af81c241349937eb06ec5d4159, type: 3}
+  pickupPrefab: {fileID: 915858155284950138, guid: a4233998fc059ed41b5ab90cc7d3e293, type: 3}
+  isUnarmed: 0
+  damage: 40
+  weaponType: 1
+  physicalDamageAbsorbtion: 30
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Axe_Attack_01
+  OH_Light_Attack_2: OH_Light_Attack_02
+  OH_Heavy_Attack_1: OH_Heavy_Attack
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2

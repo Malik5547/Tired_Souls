@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f420b6ce317e04429a89c1fe0712f4b, type: 3}
+  m_Name: Dagger
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 761f6cb9cd50e8f4dabbaf7e56f74528, type: 3}
+  itemName: Dagger
+  modelPrefab: {fileID: 360793117489790868, guid: 670fd3d43b838544e93f65412e570e32, type: 3}
+  pickupPrefab: {fileID: 4671091594301768755, guid: 177c1f446d99b394a9638bf8930b4be5, type: 3}
+  isUnarmed: 0
+  damage: 10
+  weaponType: 1
+  physicalDamageAbsorbtion: 4
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Light_Attack_01
+  OH_Light_Attack_2: OH_Axe_Attack_02
+  OH_Heavy_Attack_1: OH_Heavy_Attack
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f420b6ce317e04429a89c1fe0712f4b, type: 3}
+  m_Name: Hatchet
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: dd5f4404dea514c42836aa883bd9a054, type: 3}
+  itemName: Hatchet
+  modelPrefab: {fileID: 4087290158308956824, guid: 0ceb38ffb2ad7234c80d366e3b890da9, type: 3}
+  pickupPrefab: {fileID: 6109025740537388237, guid: 013b85de8429c324e8df10cf2d1697db, type: 3}
+  isUnarmed: 0
+  damage: 35
+  weaponType: 1
+  physicalDamageAbsorbtion: 7
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Axe_Attack_01
+  OH_Light_Attack_2: OH_Heavy_Attack
+  OH_Heavy_Attack_1: OH_Heavy_Attack
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2

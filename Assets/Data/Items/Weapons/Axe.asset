@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f420b6ce317e04429a89c1fe0712f4b, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: b95d2a7f62a760543ac93cecc230d7a0, type: 3}
+  itemName: Axe
+  modelPrefab: {fileID: 2733725431500818380, guid: deb1734dfed22b84d8304ad200ee7661, type: 3}
+  pickupPrefab: {fileID: 6047720065308819236, guid: bf8eb012dc26b84479f503396fcb6293, type: 3}
+  isUnarmed: 0
+  damage: 25
+  weaponType: 1
+  physicalDamageAbsorbtion: 5
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Axe_Attack_01
+  OH_Light_Attack_2: OH_Axe_Attack_02
+  OH_Heavy_Attack_1: OH_Heavy_Attack
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
